@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+
+    body {
+        /*background: linear-gradient(to left top, rgb(63, 61, 61), rgb(43, 8, 8));
+        background-attachment: fixed;*/
+        background-image: url("wallpaper-dnd.jpeg");
+        background-size: auto;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+    }
+
+    #container {
+        min-height: 100%;
+        position: relative;
+    }
+
+    input[type=number]{
+        width: auto;
+        height: 25px;
+        border-radius: 25px;
+        font-size: large;
+    }
+
+    #dice {
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .d4, .d6 {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 800px) {
+        #dice {
+          flex-direction: column;
+        }
+      }
+
+    .d4 p, .d6 p {
+        margin: 0;
+        color: white;
+        font-size: 30px;
+        font-family: 'Roboto Condensed', Impact, sans-serif;
+    }
+
+    input {
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    img {
+        align-self: center;
+        -webkit-filter: drop-shadow(1px 1px 0 black)
+        drop-shadow(-1px -1px 0 black);
+        filter: drop-shadow(1px 1px 0 gray) 
+        drop-shadow(-1px -1px 0 black);
+    }
+
+    button {
+    background-color: red;
+    border-radius: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif, Impact;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 250px;
+    height: 100px;
+    cursor: pointer;
+    }
+
+    #placeholder {
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', Impact, sans-serif;
+    }
+
+    #grzmicipa {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+    margin: auto;
+    padding: 15px;
+    }
+
+    #anyMods {
+        margin: 10px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Roboto Condensed', Impact, sans-serif;
+    }
+
+    /*#modifiers {
+        width: 250px;
+        height: 25px;
+        border-radius: 25px;
+        font-size: large;
+    }*/
+
+    /*#stopka {
+        background-color: black;
+        color: white;
+        width: 100%;
+        bottom: 0;
+        height: 50px;
+        position: absolute;
+    }
+
+    #stopka p {
+        font-family: 'Roboto Condensed', sans-serif, Impact;
+    }*/

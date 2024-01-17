@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="diceicon.ico" type="image/x-icon">
+    <title>TTRPG Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/241801b465.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div id="header">
+            <p id="grzmicipa" style="font-family: 'Roboto Condensed'; font-size: 50px;"><i class="fa-brands fa-d-and-d" style="font-size: 50px;"></i>&nbsp;Online Dice Roller&nbsp;<i class="fa-solid fa-dice-d20" style="font-size: 50px;"></i></p>
+        </div>
+    
+        <div id="dice">
+                <div class="d4">
+                    <img src="d4.png" alt="d4" height="100px" width="100px"><br>
+                    <p>How many D4s?</p>
+                    <input type="number" id="d4-count">
+                </div>
+            
+                <div class="d6">
+                    <img src="d6.png" alt="d6" height="100px" width="100px"><br>
+                    <p>How many D6s?</p>
+                    <input type="number" id="d6-count">
+                </div>
+            
+        </div>
+
+        <p id="anyMods">Any modifiers?</p>
+        <input type="number" id="modifiers"><br>
+        <button id="button">Roll Dice</button>
+        <script src="roller.js"></script>
+        <script src="ui.js"></script>
+        <p id="placeholder">RESULTS:</p>
+
+    </div>
+
+
+
+</body>
+</html>
