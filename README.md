@@ -8,3 +8,4 @@
 - Website outputs your rolls and their sum (including modifiers)
 
 ## CURRENTLY W.I.P
+## Busy with GPU passthrough and other things
