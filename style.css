@@ -6,9 +6,9 @@
   }
 
     body {
-        /*background: linear-gradient(to left top, rgb(63, 61, 61), rgb(43, 8, 8));
-        background-attachment: fixed;*/
-        background-image: url("wallpaper-dnd.jpeg");
+        background: linear-gradient(to left top, rgb(63, 61, 61), rgb(43, 8, 8));
+        background-attachment: fixed;
+        /*background-image: url("wallpaper-dnd.jpeg");*/
         background-size: auto;
         margin: 0;
         height: 100%;
@@ -33,7 +33,7 @@
         flex-direction: row;
     }
 
-    .d4, .d6 {
+    .d4, .d6, .d8, .d10 {
         padding: 25px;
         display: flex;
         flex-direction: column;
@@ -45,7 +45,7 @@
         }
       }
 
-    .d4 p, .d6 p {
+    .d4 p, .d6 p, .d8 p, .d10 p {
         margin: 0;
         color: white;
         font-size: 30px;
