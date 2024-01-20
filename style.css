@@ -27,13 +27,27 @@
         font-size: large;
     }
 
-    #dice {
-        padding-bottom: 50px;
+    #diceCon {
         display: flex;
         flex-direction: row;
+        text-align: center;
+        justify-content: center;
     }
 
-    .d4, .d6, .d8, .d10 {
+    #dice1 {
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #dice2 {
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .d4, .d6, .d8, .d10, .d12, .d20 {
         padding: 25px;
         display: flex;
         flex-direction: column;
@@ -45,7 +59,7 @@
         }
       }
 
-    .d4 p, .d6 p, .d8 p, .d10 p {
+    .d4 p, .d6 p, .d8 p, .d10 p, .d12 p, .d20 p {
         margin: 0;
         color: white;
         font-size: 30px;
