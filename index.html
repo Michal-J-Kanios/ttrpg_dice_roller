@@ -20,55 +20,49 @@
                 <div class="d4">
                     <img src="d4.png" alt="d4" height="100px" width="100px"><br>
                     <p>How many D4s?</p>
-                    <input type="number" id="d4-count">
+                    <input type="number" min="0" oninput="validity.valid||(value='');" id="d4-count">
                 </div>
             
                 <div class="d6">
                     <img src="d6.png" alt="d6" height="100px" width="100px"><br>
                     <p>How many D6s?</p>
-                    <input type="number" id="d6-count">
+                    <input type="number" min="0" oninput="validity.valid||(value='');" id="d6-count">
                 </div>
 
                 <div class="d8">
                     <img src="d8.png" alt="d8" height="100px" width="100px"><br>
                     <p>How many D8s?</p>
-                    <input type="number" id="d8-count">
+                    <input type="number" min="0" oninput="validity.valid||(value='');" id="d8-count">
                 </div>
         </div>
 
         <div id="dice2">
-
             <div class="d10">
                 <img src="d10.png" alt="d10" height="100px" width="100px"><br>
                 <p>How many D10s?</p>
-                <input type="number" id="d10-count">
+                <input type="number" min="0" oninput="validity.valid||(value='');" id="d10-count">
             </div>
 
             <div class="d12">
                 <img src="d12.png" alt="d12" height="100px" width="100px"><br>
                 <p>How many D12s?</p>
-                <input type="number" id="d12-count">
+                <input type="number" min="0" oninput="validity.valid||(value='');" id="d12-count">
             </div>
 
             <div class="d20">
                 <img src="d20.png" alt="d20" height="100px" width="100px"><br>
                 <p>How many D20s?</p>
-                <input type="number" id="d20-count">
+                <input type="number" min="0" oninput="validity.valid||(value='');" id="d20-count">
             </div>
-
+    </div>
 </div>
-
-        </div>
-
-
         <p id="anyMods">Any modifiers?</p>
         <input type="number" id="modifiers"><br>
         <button id="button">Roll Dice</button>
         <script src="roller.js"></script>
         <script src="ui.js"></script>
         <p id="placeholder">RESULTS:</p>
-
-    </div>
+</div>
 
 
 
