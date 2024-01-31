@@ -2,8 +2,8 @@
 ### Design is themed around D&D 5E, but you can use this tool for any TTRPG that uses the D20 system.
 
 ## Usage
-- Choose how many dice you want to roll (cannot be negative)
-- Add modifiers if needed (can be negative)
+- Choose how many dice you want to roll (can't select negatives)
+- Add modifiers if needed (can be negatives)
 - Press "ROLL DICE"
 - Website outputs your rolls and their sum (including modifiers)
 
