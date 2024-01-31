@@ -1,3 +1,5 @@
+/*
+UNUSED CUSTOM DICE ROLLER
 var dice = {
     sides: 6,
     roll: function () {
@@ -5,3 +7,4 @@ var dice = {
       return randomNumber;
     }
   }
+  */

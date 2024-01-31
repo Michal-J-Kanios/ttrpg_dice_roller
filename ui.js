@@ -1,3 +1,5 @@
+/*
+UNUSED PRINTING SCRIPT FOR USE IN CONJUCTION WITH roller.js
 function printNumber(number) {
     var placeholder = document.getElementById('placeholder');
     placeholder.innerHTML = number;
@@ -9,3 +11,5 @@ function printNumber(number) {
     var result = dice.roll();
     printNumber(result);
   };
+
+  */
