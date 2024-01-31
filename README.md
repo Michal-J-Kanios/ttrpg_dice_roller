@@ -8,7 +8,10 @@
 - Website outputs your rolls and their sum (including modifiers)
 
 ### Screenshot 1
-![screenshot 1](https://github.com/michal-j-kanios/ttrpg_dice_roller/blob/main/ss1.png?raw=true)
+![ss3](https://github.com/Michal-J-Kanios/ttrpg_dice_roller/assets/92123240/81602143-9c17-4bcf-9326-92624799f948)
+
+
 
 ### Screenshot 2
-![screenshot 2](https://github.com/michal-j-kanios/ttrpg_dice_roller/blob/main/ss2.png?raw=true)
+![ss4](https://github.com/Michal-J-Kanios/ttrpg_dice_roller/assets/92123240/7bf2d6ef-355f-4121-9b00-10493b4776e1)
+
